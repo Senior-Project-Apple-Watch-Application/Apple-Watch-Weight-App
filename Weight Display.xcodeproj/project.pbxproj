@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAE99D528BEE9310058A59F /* Weight_DisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE99D428BEE9310058A59F /* Weight_DisplayApp.swift */; };
+		0AAE99D728BEE9310058A59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE99D628BEE9310058A59F /* ContentView.swift */; };
+		0AAE99D928BEE9370058A59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAE99D828BEE9370058A59F /* Assets.xcassets */; };
+		0AAE99DC28BEE9370058A59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAE99DB28BEE9370058A59F /* Preview Assets.xcassets */; };
+		0AAE99E628BEE9370058A59F /* Weight_DisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE99E528BEE9370058A59F /* Weight_DisplayTests.swift */; };
+		0AAE99F028BEE9370058A59F /* Weight_DisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE99EF28BEE9370058A59F /* Weight_DisplayUITests.swift */; };
+		0AAE99F228BEE9370058A59F /* Weight_DisplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE99F128BEE9370058A59F /* Weight_DisplayUITestsLaunchTests.swift */; };
+		0AAE99F628BEE9380058A59F /* Weight Display WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0AAE99F528BEE9380058A59F /* Weight Display WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AAE99FB28BEE9390058A59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAE99FA28BEE9390058A59F /* Assets.xcassets */; };
+		0AAE9A0128BEE9390058A59F /* Weight Display WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0AAE9A0028BEE9390058A59F /* Weight Display WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AAE9A0628BEE9390058A59F /* Weight_DisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0528BEE9390058A59F /* Weight_DisplayApp.swift */; };
+		0AAE9A0828BEE9390058A59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0728BEE9390058A59F /* ContentView.swift */; };
+		0AAE9A0A28BEE9390058A59F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0928BEE9390058A59F /* NotificationController.swift */; };
+		0AAE9A0C28BEE9390058A59F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0B28BEE9390058A59F /* NotificationView.swift */; };
+		0AAE9A0E28BEE9390058A59F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0D28BEE9390058A59F /* ComplicationController.swift */; };
+		0AAE9A1028BEE93A0058A59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAE9A0F28BEE93A0058A59F /* Assets.xcassets */; };
+		0AAE9A1328BEE93A0058A59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAE9A1228BEE93A0058A59F /* Preview Assets.xcassets */; };
+		0AAE9A1F28BEE93A0058A59F /* Weight_Display_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A1E28BEE93A0058A59F /* Weight_Display_WatchKit_AppTests.swift */; };
+		0AAE9A2928BEE93A0058A59F /* Weight_Display_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A2828BEE93A0058A59F /* Weight_Display_WatchKit_AppUITests.swift */; };
+		0AAE9A2B28BEE93A0058A59F /* Weight_Display_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9A2A28BEE93A0058A59F /* Weight_Display_WatchKit_AppUITestsLaunchTests.swift */; };
+		A8409AC92919455500000A0B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409AC82919455500000A0B /* SettingsView.swift */; };
+		A8409ACC2919466500000A0B /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8409ACB2919466500000A0B /* XMarkButton.swift */; };
+		A8BE6CE828ECB96D003A2652 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A8BE6CE728ECB96D003A2652 /* SwiftUICharts */; };
+		A8D7518F28DCEE7900FAFFD8 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7518E28DCEE7900FAFFD8 /* ChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AAE99E228BEE9370058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99D028BEE9310058A59F;
+			remoteInfo = "Weight Display";
+		};
+		0AAE99EC28BEE9370058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99D028BEE9310058A59F;
+			remoteInfo = "Weight Display";
+		};
+		0AAE99F728BEE9380058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99F428BEE9380058A59F;
+			remoteInfo = "Weight Display WatchKit App";
+		};
+		0AAE9A0228BEE9390058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99FF28BEE9390058A59F;
+			remoteInfo = "Weight Display WatchKit Extension";
+		};
+		0AAE9A1B28BEE93A0058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99FF28BEE9390058A59F;
+			remoteInfo = "Weight Display WatchKit Extension";
+		};
+		0AAE9A2528BEE93A0058A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAE99C928BEE9310058A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAE99F428BEE9380058A59F;
+			remoteInfo = "Weight Display WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AAE9A3128BEE93A0058A59F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AAE9A0128BEE9390058A59F /* Weight Display WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A3528BEE93A0058A59F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0AAE99F628BEE9380058A59F /* Weight Display WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AAE99D128BEE9310058A59F /* Weight Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE99D428BEE9310058A59F /* Weight_DisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_DisplayApp.swift; sourceTree = "<group>"; };
+		0AAE99D628BEE9310058A59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AAE99D828BEE9370058A59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AAE99DB28BEE9370058A59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAE99E128BEE9370058A59F /* Weight DisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight DisplayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE99E528BEE9370058A59F /* Weight_DisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_DisplayTests.swift; sourceTree = "<group>"; };
+		0AAE99EB28BEE9370058A59F /* Weight DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE99EF28BEE9370058A59F /* Weight_DisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_DisplayUITests.swift; sourceTree = "<group>"; };
+		0AAE99F128BEE9370058A59F /* Weight_DisplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_DisplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AAE99F528BEE9380058A59F /* Weight Display WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight Display WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE99FA28BEE9390058A59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AAE9A0028BEE9390058A59F /* Weight Display WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Weight Display WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE9A0528BEE9390058A59F /* Weight_DisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_DisplayApp.swift; sourceTree = "<group>"; };
+		0AAE9A0728BEE9390058A59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AAE9A0928BEE9390058A59F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0AAE9A0B28BEE9390058A59F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0AAE9A0D28BEE9390058A59F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0AAE9A0F28BEE93A0058A59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AAE9A1228BEE93A0058A59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAE9A1428BEE93A0058A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AAE9A1528BEE93A0058A59F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0AAE9A1A28BEE93A0058A59F /* Weight Display WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight Display WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE9A1E28BEE93A0058A59F /* Weight_Display_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_Display_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		0AAE9A2428BEE93A0058A59F /* Weight Display WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight Display WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAE9A2828BEE93A0058A59F /* Weight_Display_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_Display_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		0AAE9A2A28BEE93A0058A59F /* Weight_Display_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_Display_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8409AC82919455500000A0B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A8409ACB2919466500000A0B /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		A8D7518E28DCEE7900FAFFD8 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AAE99CE28BEE9310058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE6CE828ECB96D003A2652 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99DE28BEE9370058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99E828BEE9370058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99FD28BEE9390058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A1728BEE93A0058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A2128BEE93A0058A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAE99C828BEE9310058A59F = {
+			isa = PBXGroup;
+			children = (
+				0AAE99D328BEE9310058A59F /* Weight Display */,
+				0AAE99E428BEE9370058A59F /* Weight DisplayTests */,
+				0AAE99EE28BEE9370058A59F /* Weight DisplayUITests */,
+				0AAE99F928BEE9380058A59F /* Weight Display WatchKit App */,
+				0AAE9A0428BEE9390058A59F /* Weight Display WatchKit Extension */,
+				0AAE9A1D28BEE93A0058A59F /* Weight Display WatchKit AppTests */,
+				0AAE9A2728BEE93A0058A59F /* Weight Display WatchKit AppUITests */,
+				0AAE99D228BEE9310058A59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AAE99D228BEE9310058A59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE99D128BEE9310058A59F /* Weight Display.app */,
+				0AAE99E128BEE9370058A59F /* Weight DisplayTests.xctest */,
+				0AAE99EB28BEE9370058A59F /* Weight DisplayUITests.xctest */,
+				0AAE99F528BEE9380058A59F /* Weight Display WatchKit App.app */,
+				0AAE9A0028BEE9390058A59F /* Weight Display WatchKit Extension.appex */,
+				0AAE9A1A28BEE93A0058A59F /* Weight Display WatchKit AppTests.xctest */,
+				0AAE9A2428BEE93A0058A59F /* Weight Display WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AAE99D328BEE9310058A59F /* Weight Display */ = {
+			isa = PBXGroup;
+			children = (
+				A8409ACA2919464200000A0B /* Components */,
+				0AAE99D428BEE9310058A59F /* Weight_DisplayApp.swift */,
+				0AAE99D628BEE9310058A59F /* ContentView.swift */,
+				0AAE99D828BEE9370058A59F /* Assets.xcassets */,
+				0AAE99DA28BEE9370058A59F /* Preview Content */,
+				A8D7518E28DCEE7900FAFFD8 /* ChartView.swift */,
+				A8409AC42919450A00000A0B /* Settings */,
+			);
+			path = "Weight Display";
+			sourceTree = "<group>";
+		};
+		0AAE99DA28BEE9370058A59F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE99DB28BEE9370058A59F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AAE99E428BEE9370058A59F /* Weight DisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE99E528BEE9370058A59F /* Weight_DisplayTests.swift */,
+			);
+			path = "Weight DisplayTests";
+			sourceTree = "<group>";
+		};
+		0AAE99EE28BEE9370058A59F /* Weight DisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE99EF28BEE9370058A59F /* Weight_DisplayUITests.swift */,
+				0AAE99F128BEE9370058A59F /* Weight_DisplayUITestsLaunchTests.swift */,
+			);
+			path = "Weight DisplayUITests";
+			sourceTree = "<group>";
+		};
+		0AAE99F928BEE9380058A59F /* Weight Display WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE99FA28BEE9390058A59F /* Assets.xcassets */,
+			);
+			path = "Weight Display WatchKit App";
+			sourceTree = "<group>";
+		};
+		0AAE9A0428BEE9390058A59F /* Weight Display WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9A0528BEE9390058A59F /* Weight_DisplayApp.swift */,
+				0AAE9A0728BEE9390058A59F /* ContentView.swift */,
+				0AAE9A0928BEE9390058A59F /* NotificationController.swift */,
+				0AAE9A0B28BEE9390058A59F /* NotificationView.swift */,
+				0AAE9A0D28BEE9390058A59F /* ComplicationController.swift */,
+				0AAE9A0F28BEE93A0058A59F /* Assets.xcassets */,
+				0AAE9A1428BEE93A0058A59F /* Info.plist */,
+				0AAE9A1528BEE93A0058A59F /* PushNotificationPayload.apns */,
+				0AAE9A1128BEE93A0058A59F /* Preview Content */,
+			);
+			path = "Weight Display WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0AAE9A1128BEE93A0058A59F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9A1228BEE93A0058A59F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AAE9A1D28BEE93A0058A59F /* Weight Display WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9A1E28BEE93A0058A59F /* Weight_Display_WatchKit_AppTests.swift */,
+			);
+			path = "Weight Display WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		0AAE9A2728BEE93A0058A59F /* Weight Display WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9A2828BEE93A0058A59F /* Weight_Display_WatchKit_AppUITests.swift */,
+				0AAE9A2A28BEE93A0058A59F /* Weight_Display_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Weight Display WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		A8409AC42919450A00000A0B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A8409AC52919451D00000A0B /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A8409AC52919451D00000A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8409AC82919455500000A0B /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8409ACA2919464200000A0B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A8409ACB2919466500000A0B /* XMarkButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAE99D028BEE9310058A59F /* Weight Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A3628BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display" */;
+			buildPhases = (
+				0AAE99CD28BEE9310058A59F /* Sources */,
+				0AAE99CE28BEE9310058A59F /* Frameworks */,
+				0AAE99CF28BEE9310058A59F /* Resources */,
+				0AAE9A3528BEE93A0058A59F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE99F828BEE9380058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight Display";
+			packageProductDependencies = (
+				A8BE6CE728ECB96D003A2652 /* SwiftUICharts */,
+			);
+			productName = "Weight Display";
+			productReference = 0AAE99D128BEE9310058A59F /* Weight Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AAE99E028BEE9370058A59F /* Weight DisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A3928BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight DisplayTests" */;
+			buildPhases = (
+				0AAE99DD28BEE9370058A59F /* Sources */,
+				0AAE99DE28BEE9370058A59F /* Frameworks */,
+				0AAE99DF28BEE9370058A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE99E328BEE9370058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight DisplayTests";
+			productName = "Weight DisplayTests";
+			productReference = 0AAE99E128BEE9370058A59F /* Weight DisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AAE99EA28BEE9370058A59F /* Weight DisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A3C28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight DisplayUITests" */;
+			buildPhases = (
+				0AAE99E728BEE9370058A59F /* Sources */,
+				0AAE99E828BEE9370058A59F /* Frameworks */,
+				0AAE99E928BEE9370058A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE99ED28BEE9370058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight DisplayUITests";
+			productName = "Weight DisplayUITests";
+			productReference = 0AAE99EB28BEE9370058A59F /* Weight DisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0AAE99F428BEE9380058A59F /* Weight Display WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A3228BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit App" */;
+			buildPhases = (
+				0AAE99F328BEE9380058A59F /* Resources */,
+				0AAE9A3128BEE93A0058A59F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE9A0328BEE9390058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight Display WatchKit App";
+			productName = "Weight Display WatchKit App";
+			productReference = 0AAE99F528BEE9380058A59F /* Weight Display WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0AAE99FF28BEE9390058A59F /* Weight Display WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A2E28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit Extension" */;
+			buildPhases = (
+				0AAE99FC28BEE9390058A59F /* Sources */,
+				0AAE99FD28BEE9390058A59F /* Frameworks */,
+				0AAE99FE28BEE9390058A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weight Display WatchKit Extension";
+			productName = "Weight Display WatchKit Extension";
+			productReference = 0AAE9A0028BEE9390058A59F /* Weight Display WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0AAE9A1928BEE93A0058A59F /* Weight Display WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A3F28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit AppTests" */;
+			buildPhases = (
+				0AAE9A1628BEE93A0058A59F /* Sources */,
+				0AAE9A1728BEE93A0058A59F /* Frameworks */,
+				0AAE9A1828BEE93A0058A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE9A1C28BEE93A0058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight Display WatchKit AppTests";
+			productName = "Weight Display WatchKit AppTests";
+			productReference = 0AAE9A1A28BEE93A0058A59F /* Weight Display WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AAE9A2328BEE93A0058A59F /* Weight Display WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAE9A4228BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit AppUITests" */;
+			buildPhases = (
+				0AAE9A2028BEE93A0058A59F /* Sources */,
+				0AAE9A2128BEE93A0058A59F /* Frameworks */,
+				0AAE9A2228BEE93A0058A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAE9A2628BEE93A0058A59F /* PBXTargetDependency */,
+			);
+			name = "Weight Display WatchKit AppUITests";
+			productName = "Weight Display WatchKit AppUITests";
+			productReference = 0AAE9A2428BEE93A0058A59F /* Weight Display WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AAE99C928BEE9310058A59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0AAE99D028BEE9310058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0AAE99E028BEE9370058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0AAE99D028BEE9310058A59F;
+					};
+					0AAE99EA28BEE9370058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0AAE99D028BEE9310058A59F;
+					};
+					0AAE99F428BEE9380058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0AAE99FF28BEE9390058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0AAE9A1928BEE93A0058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0AAE99FF28BEE9390058A59F;
+					};
+					0AAE9A2328BEE93A0058A59F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0AAE99F428BEE9380058A59F;
+					};
+				};
+			};
+			buildConfigurationList = 0AAE99CC28BEE9310058A59F /* Build configuration list for PBXProject "Weight Display" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AAE99C828BEE9310058A59F;
+			packageReferences = (
+				A8BE6CE628ECB96D003A2652 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 0AAE99D228BEE9310058A59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAE99D028BEE9310058A59F /* Weight Display */,
+				0AAE99E028BEE9370058A59F /* Weight DisplayTests */,
+				0AAE99EA28BEE9370058A59F /* Weight DisplayUITests */,
+				0AAE99F428BEE9380058A59F /* Weight Display WatchKit App */,
+				0AAE99FF28BEE9390058A59F /* Weight Display WatchKit Extension */,
+				0AAE9A1928BEE93A0058A59F /* Weight Display WatchKit AppTests */,
+				0AAE9A2328BEE93A0058A59F /* Weight Display WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AAE99CF28BEE9310058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE99DC28BEE9370058A59F /* Preview Assets.xcassets in Resources */,
+				0AAE99D928BEE9370058A59F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99DF28BEE9370058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99E928BEE9370058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99F328BEE9380058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE99FB28BEE9390058A59F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99FE28BEE9390058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE9A1328BEE93A0058A59F /* Preview Assets.xcassets in Resources */,
+				0AAE9A1028BEE93A0058A59F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A1828BEE93A0058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A2228BEE93A0058A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAE99CD28BEE9310058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE99D728BEE9310058A59F /* ContentView.swift in Sources */,
+				A8409ACC2919466500000A0B /* XMarkButton.swift in Sources */,
+				A8409AC92919455500000A0B /* SettingsView.swift in Sources */,
+				0AAE99D528BEE9310058A59F /* Weight_DisplayApp.swift in Sources */,
+				A8D7518F28DCEE7900FAFFD8 /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99DD28BEE9370058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE99E628BEE9370058A59F /* Weight_DisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99E728BEE9370058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE99F028BEE9370058A59F /* Weight_DisplayUITests.swift in Sources */,
+				0AAE99F228BEE9370058A59F /* Weight_DisplayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE99FC28BEE9390058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE9A0A28BEE9390058A59F /* NotificationController.swift in Sources */,
+				0AAE9A0828BEE9390058A59F /* ContentView.swift in Sources */,
+				0AAE9A0E28BEE9390058A59F /* ComplicationController.swift in Sources */,
+				0AAE9A0628BEE9390058A59F /* Weight_DisplayApp.swift in Sources */,
+				0AAE9A0C28BEE9390058A59F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A1628BEE93A0058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE9A1F28BEE93A0058A59F /* Weight_Display_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAE9A2028BEE93A0058A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE9A2B28BEE93A0058A59F /* Weight_Display_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				0AAE9A2928BEE93A0058A59F /* Weight_Display_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AAE99E328BEE9370058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99D028BEE9310058A59F /* Weight Display */;
+			targetProxy = 0AAE99E228BEE9370058A59F /* PBXContainerItemProxy */;
+		};
+		0AAE99ED28BEE9370058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99D028BEE9310058A59F /* Weight Display */;
+			targetProxy = 0AAE99EC28BEE9370058A59F /* PBXContainerItemProxy */;
+		};
+		0AAE99F828BEE9380058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99F428BEE9380058A59F /* Weight Display WatchKit App */;
+			targetProxy = 0AAE99F728BEE9380058A59F /* PBXContainerItemProxy */;
+		};
+		0AAE9A0328BEE9390058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99FF28BEE9390058A59F /* Weight Display WatchKit Extension */;
+			targetProxy = 0AAE9A0228BEE9390058A59F /* PBXContainerItemProxy */;
+		};
+		0AAE9A1C28BEE93A0058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99FF28BEE9390058A59F /* Weight Display WatchKit Extension */;
+			targetProxy = 0AAE9A1B28BEE93A0058A59F /* PBXContainerItemProxy */;
+		};
+		0AAE9A2628BEE93A0058A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAE99F428BEE9380058A59F /* Weight Display WatchKit App */;
+			targetProxy = 0AAE9A2528BEE93A0058A59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AAE9A2C28BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AAE9A2D28BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0AAE9A2F28BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Display WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weight Display WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Display WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0AAE9A3028BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Display WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weight Display WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Display WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0AAE9A3328BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Weight_Display_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Display WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "CapstoneFall2022.Weight-Display";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0AAE9A3428BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Weight_Display_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weight Display WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "CapstoneFall2022.Weight-Display";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0AAE9A3728BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Display/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AAE9A3828BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weight Display/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AAE9A3A28BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Display.app/Weight Display";
+			};
+			name = Debug;
+		};
+		0AAE9A3B28BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Display.app/Weight Display";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AAE9A3D28BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weight Display";
+			};
+			name = Debug;
+		};
+		0AAE9A3E28BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weight Display";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AAE9A4028BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Display WatchKit Extension.appex/Weight Display WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0AAE9A4128BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Display WatchKit Extension.appex/Weight Display WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0AAE9A4328BEE93A0058A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Weight Display WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		0AAE9A4428BEE93A0058A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CapstoneFall2022.Weight-Display-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Weight Display WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAE99CC28BEE9310058A59F /* Build configuration list for PBXProject "Weight Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A2C28BEE93A0058A59F /* Debug */,
+				0AAE9A2D28BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A2E28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A2F28BEE93A0058A59F /* Debug */,
+				0AAE9A3028BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A3228BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A3328BEE93A0058A59F /* Debug */,
+				0AAE9A3428BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A3628BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A3728BEE93A0058A59F /* Debug */,
+				0AAE9A3828BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A3928BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight DisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A3A28BEE93A0058A59F /* Debug */,
+				0AAE9A3B28BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A3C28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight DisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A3D28BEE93A0058A59F /* Debug */,
+				0AAE9A3E28BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A3F28BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A4028BEE93A0058A59F /* Debug */,
+				0AAE9A4128BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAE9A4228BEE93A0058A59F /* Build configuration list for PBXNativeTarget "Weight Display WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE9A4328BEE93A0058A59F /* Debug */,
+				0AAE9A4428BEE93A0058A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8BE6CE628ECB96D003A2652 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8BE6CE728ECB96D003A2652 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8BE6CE628ECB96D003A2652 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0AAE99C928BEE9310058A59F /* Project object */;
+}
